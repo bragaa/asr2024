@@ -63,7 +63,7 @@
 	- MIB is used to refer to various things: text files of modules definitions, information an agent holds, universal tree
 - you can explore the MIB content of a device using a MIB Browser
 
-![Structure of the MIB universal tree](../imgs/MIB-structure-1bis.png)
+![Structure of the MIB universal tree](https://ibb.co/6Zn0PrX)
 
 # The Structure of Management Information (SMI)
 - the schema of the MIB is defined in a language expressed with Abstract Syntax Notation (ASN.1), called Structure of Management informatin (SMI).
@@ -128,7 +128,7 @@ ifIndex OBJECT-TYPE
 ```
 - The graphical representation of this `Sequence Of` is as follows: 
 
-![mib-2.ifTable Table](../imgs/snmp-ifTable-tableau.png)
+![mib-2.ifTable Table](https://ibb.co/tYVkZM2)
 
 - The index of this table is `ifTable.Colonne.ValeurDesIndex`. For example, In order to read the `ifDescr` attribute of interface having `ifIndex` 1, one should read object `ifTable.2.1` 
 - Without an index, one should use `GetNext` or `GetBulk` to retrieve the entire table.
