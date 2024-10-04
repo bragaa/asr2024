@@ -63,7 +63,7 @@
 	- MIB is used to refer to various things: text files of modules definitions, information an agent holds, universal tree
 - you can explore the MIB content of a device using a MIB Browser
 
-![Structure of the MIB universal tree](https://ibb.co/6Zn0PrX)
+![Structure of the MIB universal tree](https://i.ibb.co/6Zn0PrX/MIB-structure-1bis.png)
 
 # The Structure of Management Information (SMI)
 - the schema of the MIB is defined in a language expressed with Abstract Syntax Notation (ASN.1), called Structure of Management informatin (SMI).
